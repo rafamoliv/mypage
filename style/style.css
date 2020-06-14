@@ -1,0 +1,157 @@
+:root {
+    --primary-color: rgb(64, 184, 240);
+    --secundary-color: rgb(41, 145, 194);
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Roboto;
+}
+
+body {
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+#page-home header {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.content img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
+#page-home .content a img {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#page-home header a {
+    display: flex;
+    color: white;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    justify-content: left;
+}
+
+#back {
+    text-decoration: none;
+    max-width: 180px;
+    max-height: 100px;
+    background-color: var(--primary-color);
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 10px;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+#back a {
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    font-size: 22px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h3 {
+    max-width: 450px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+h4 {
+    max-width: 450px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#items a {
+    max-width: 250px;
+    max-height: 100px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    padding: 8px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+#aboutme:hover, 
+#repository:hover, 
+#graduation:hover, 
+#study:hover,
+#back:hover {
+    background-color: var(--secundary-color);
+    transition: 400ms;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    gap: 5px;
+    justify-content: center;
+}
+
+#footer a {
+    align-items: center;
+}
+
+#footer img {
+    margin-top: 15px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#en,
+#pt-br {
+    width: 37px;
+    height: 37px;
+}
