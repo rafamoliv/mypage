@@ -1,3 +1,4 @@
+/* Made by Rafael Oliveira, contact: rafaoliv.ti@gmail.com */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
@@ -15,7 +16,8 @@
 
     .row {
         display: block;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         text-align: center;
     }
 
@@ -81,12 +83,15 @@
     }
 
     .card-columns {
-        column-count: 2;
+        -webkit-column-count: 2;
+           -moz-column-count: 2;
+                column-count: 2;
     }
 
     .row {
         display: block;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         text-align: center;
     }
 
