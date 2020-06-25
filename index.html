@@ -1,50 +1,381 @@
-<!DOCTYPE html>
-<html lang="pt_br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rafael Oliveira</title>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" href="./images/logo_icon.png">
-        <link rel="stylesheet" href="./style/style.css">
-        <link rel="stylesheet" href="./style/responsive.css">
-    </head>
-    <body>
+<!-- Made by Rafael Oliveira, contact: rafaoliv.ti@gmail.com -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <div id="page-home">
-            <div class="content">
-                <header>
-                    <img src="./images/white_logo1_edit.png" alt="logo">
-                </header>
-            </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-            <div id="presentation">
-                <h1>Seja bem vindo!</h1>
-                <!-- <h3>Abaixo você poderá encontrar informações sobre minha trajetória e repositório</h3> -->
-            </div>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
 
-            <div id="items">
-                <a href="aboutme.html" id="aboutme">Sobre mim</a>
-                <a href="graduation.html" id="graduation">Graduação</a>
-                <a href="study.html" id="study">Área de Estudo</a>
-                <a href="repository.html" id="repository">Repositório</a>
-            </div>
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <![endif]-->
 
-            <div id="footer">
-                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521995217378" target="_blank" id="whatsapp">
-                    <img id="whatsapp" src="./images/whats_icon.png" alt="Whatsapp">
-                </a>
-                <a href="https://www.linkedin.com/in/rafamoliv/" target="_blank" id="linkedin">
-                    <img id="linkedin" src="./images/linkedinlogo.png" alt="LinkedinlIn">
-                </a>
-                <a href="https://github.com/rafamoliv" target="_blank" id="git">
-                    <img id="git" src="./images/githublink.png" alt="GitHub">
-                </a>
-                <a href="./english/en_index.html" target="" id="en">
-                    <img id="en" src="./images/english.png" alt="English">
-                </a>
+    <title>Rafael Oliveira | Developer</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- .CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/icons.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <header>
+      <!-- header -->
+      <nav class="navbar navbar-expand-md navbar-light fixed-top transparent-menu">
+        <div class="container">
+          <!-- /container -->
+          <!-- nav -->
+          <a href="index.html" class="navbar-brand disabled">Rafael Oliveira | Developer</a>
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+            <!-- collapse menu -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#repository" class="nav-link">Repository</a>
+              </li>
+              <!-- <li class="nav-item"> <a href="#graduation" class="nav-link">Graduation</a> </li> -->
+              <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+              </li>
+              <!-- <li class="nav-item"> <a href="#aboutme" class="nav-link">About me</a> </li> -->
+              <li class="nav-item">
+                <a href="#footer" class="nav-link">About me & Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /collapse menu -->
+        </div>
+        <!-- /container -->
+      </nav>
+      <!-- /nav -->
+    </header>
+    <!-- /header -->
+
+    <section id="index">
+      <!-- section -->
+      <div class="parallax">
+
+        <h1 id="index-show-open">
+          <strong>Rafael Oliveira</strong>
+        </h1>
+        <span id="index-show-open-below">Systems Analysis and Development</span>
+
+      </div>
+    </section>
+
+    <section id="repository" class="d-flex border-gradient">
+      <!-- section -->
+      <div class="container">
+
+        <h2>Examples of my work</h2>
+
+        <div class="card-columns">
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/mypage" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/mypage.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">mypage</h4>
+                <p class="card-text">My professional page.</p>
+
+              </div>
             </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/spotify-clone-web" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/spotify.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">spotify-clone-web</h4>
+                <p class="card-text">A clone of Spotify's web homepage using Bootstrap.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/NLW-2020_Ecoleta" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/ecoleta.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">NLW-2020_Ecoleta</h4>
+                <p class="card-text">Ecoleta is a project developed based on international environment week during Rocketseat's Next Level Week...</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/finans_bootstrap" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/finans.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">finans_bootstrap</h4>
+                <p class="card-text">A conceptual finance site using Bootstrap.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/MuseuNacional_website" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/museunacional.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">MuseuNacional_website</h4>
+                <p class="card-text">A parallel site for the national museum.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/parallax_css" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/parallax.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">parallax_css</h4>
+                <p class="card-text">A exemple of project CSS using PARALLAX.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/tecblog_html_css" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/tecblog.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">tecblog_html_css</h4>
+                <p class="card-text">Third project course WEB - Udemy. TecBlog.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/chale-hotel_responsive" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/chalehotel.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">chale-hotel_responsive</h4>
+                <p class="card-text">Fifth web course project. Chalet hotel.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <a href="https://github.com/rafamoliv/SiteNoticiasCidade_html_css" target="_blank">
+            <div class="card text-white up-transition text-transition img-transition">
+
+              <img class="card-img" src="./assets/repository/noticiascidade.png">
+              <div class="card-img-overlay">
+                <h4 class="card-title">SiteNoticiasCidade_html_css</h4>
+                <p class="card-text">News site City, Fourth web course project.</p>
+
+              </div>
+            </div>
+          </a>
+          <!-- /card -->
+
+          <!-- card -->
+          <div class="card up-transition">
+            <img class="card-img-top" src="./assets/repository/cep-search-api.png">
+            <div class="card-body">
+              <h4 class="card-title">cep-search-api</h4>
+              <p class="card-text">An API developed by:
+                <a href="https://www.linkedin.com/in/yago-fernandes-568790172/" target="_blank">Yago Fernandes</a>
+                with my participation in the development of the Front-End.</p>
+              <a class="btn btn-outline-primary" href="https://www.linkedin.com/feed/update/urn:li:activity:6677236179311624192/" target="_blank">Read more</a>
+            </div>
+          </div>
+          <!-- /card -->
 
         </div>
-    </body>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <section id="skills" class="d-flex">
+      <!-- section -->
+      <div class="container align-self-center center-txt">
+        <h2>My skills</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <ul>
+              <h3>Knowledge</h3>
+              <li>
+                <i class="fas fa-laptop-code"></i>
+                <h6>Software Development</h6>
+              </li>
+              <li>
+                <i class="far fa-map"></i>
+                <h6>Web Development</h6>
+              </li>
+              <li>
+                <i class="fas fa-mobile-alt"></i>
+                <h6>Mobile Development</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <h3>Skills</h3>
+              <li>
+                <i class="fab fa-js-square"></i>
+                <h6>JavaScript</h6>
+              </li>
+              <li>
+                <i class="fab fa-html5"></i>
+                <h6>HTML5</h6>
+              </li>
+              <li>
+                <i class="fab fa-css3-alt"></i>
+                <h6>CSS3</h6>
+              </li>
+              <li>
+                <i class="far fa-file-alt"></i>
+                <h6>ABAP</h6>
+              </li>
+              <li>
+                <i class="fab fa-cuttlefish"></i>
+                <h6>C++ & C#</h6>
+              </li>
+              <li>
+                <i class="fab fa-java"></i>
+                <h6>Java</h6>
+              </li>
+              <li>
+                <i class="fas fa-database"></i>
+                <h6>SQL</h6>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul>
+              <h3>Tools and Frameworks</h3>
+              <li>
+                <i class="fab fa-node-js"></i>
+                <h6>Node.js</h6>
+              </li>
+              <li>
+                <i class="fab fa-bootstrap"></i>
+                <h6>Bootstrap</h6>
+              </li>
+              <li>
+                <i class="far fa-file-alt"></i>
+                <h6>SAP</h6>
+              </li>
+              <li>
+                <i class="fab fa-unity"></i>
+                <h6>Unity</h6>
+              </li>
+              <li>
+                <i class="fas fa-code"></i>
+                <h6>VS Code</h6>
+              </li>
+              <li>
+                <i class="fab fa-adobe"></i>
+                <h6>Adobe Photoshop</h6>
+              </li>
+              <li>
+                <i class="fas fa-database"></i>
+                <h6>MySQL</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <div id="clear-float"></div>
+
+    <section>
+      <!-- section -->
+      <div id="aboutme">
+        <div class="col left">
+          <!-- <img alt="assets" src="./assets/me.jpg" id="me"> -->
+        </div>
+        <div class="col right">
+          <h2>
+            Hello!!! I'm<br>
+            Rafael Magalhães de Oliveira.
+          </h2>
+          <p>
+            I'm 22 years old, a nice guy and easy to learn and proactive to learn it, I'm a developer based in Duque de Caxias, in the state of Rio de Janeiro, Brazil. Graduated in Systems Analysis and Development from Universidade Carioca (UNICARIOCA).
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+
+    <div id="clear-float"></div>
+
+    <footer id="footer">
+      <!-- header -->
+      <nav class="transparent-menu">
+        <div class="container">
+          <!-- container -->
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Social Medias</h2>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/rafamoliv/" target="_blank" id="linkedin" alt="linkedin"><i class="fab fa-linkedin"></i><h6>LinkedIn</h6></a></li>
+                <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5521995217378" target="_blank" id="whatsapp" alt="whatsapp"><i class="fab fa-whatsapp-square"></i><h6>Whatsapp</h6></a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h2>Professional and Freelas</h2>
+              <ul>
+                <li><a href="mailto:rafaoliv.ti@gmail.com" target="_blank" id="mail" alt="mail"><i class="fas fa-envelope"></i><h6>Mail</h6></a></li>
+                <li><a href="https://github.com/rafamoliv" target="_blank" id="github" alt="github"><i class="fab fa-github"></i><h6>GitHub</h6></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- /container -->
+      </nav>
+      <!-- /nav -->
+    </footer>
+    <!-- /footer -->
+
+    <!-- js -->
+    <script src="./js/scripts.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>

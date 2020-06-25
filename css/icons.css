@@ -1,0 +1,104 @@
+/* Made by Rafael Oliveira, contact: rafaoliv.ti@gmail.com */
+/*icons colors*/
+/*software development*/
+.fa-laptop-code:hover {
+    color: rgb(94, 175, 252);
+}
+
+/*web development*/
+.fa-map:hover {
+    color: seagreen;
+}
+
+/*mobile development*/
+.fa-mobile-alt:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*javascript*/
+.fa-js-square:hover {
+    color: #FFD700;
+}
+
+/*HTML5*/
+.fa-html5:hover {
+    color: rgb(223, 120, 2);
+}
+
+/*CSS3*/
+.fa-css3-alt:hover {
+    color: rgb(76, 78, 238);
+}
+
+/*SAP & ABAP*/
+.fa-file-alt:hover {
+    color: rgb(0, 1, 75);
+}
+
+/*C++ & C#*/
+.fa-cuttlefish:hover {
+    color: rgb(0, 1, 75);
+}
+
+/*Java*/
+.fa-java:hover {
+    color: rgb(255, 4, 4);
+}
+
+/*SQL & MySQL*/
+.fa-database:hover {
+    color: #4479a1;
+}
+
+/*Node.js*/ 
+.fa-node-js:hover {
+    color: #43853d;
+}
+
+/*Bootstrap*/ 
+.fa-bootstrap:hover {
+    color: #563d7c;
+}
+
+/*Unity*/ 
+.fa-unity:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/*VS Code*/ 
+.fa-code:hover {
+    color: #0066B8;
+}
+
+/*Adobe Photoshop*/ 
+.fa-adobe:hover {
+    color: #151233;
+}
+
+/*contacts*/
+.fa-linkedin,
+.fa-whatsapp-square,
+.fa-envelope,
+.fa-github {
+    font-size: 2em;
+}
+
+/*linkedin*/ 
+#linkedin:hover {
+    color: #5c59ff;
+}
+
+/*whatsapp*/ 
+#whatsapp:hover {
+    color: #1ebea5;
+}
+
+/*mail*/ 
+#mail:hover {
+    color: rgba(236, 12, 12, 0.658);
+}
+
+/*github*/ 
+#github:hover {
+    color: #000;
+}

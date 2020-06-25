@@ -1,0 +1,188 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    h1#index-show-open {
+        font-size: 35px;
+    }
+    
+    span#index-show-open-below {
+        font-size: 15px;
+    }
+
+    .row {
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #skills ul {
+        padding: 20px;
+    }
+
+    #footer h2 {
+        font-size: 15px;
+    }
+
+    .h6, h6 {
+        font-size: 0.7em;
+    }
+
+    #skills.col-md-4 {
+        width: 100%;
+    }
+
+    #clear-float {
+        clear: both;
+    }
+
+    #skills ul {
+        margin-bottom: -25px;
+    }
+
+    #aboutme {
+        height: 300px;
+    }
+        
+    #aboutme .col.left {
+        display: none;
+    }
+    
+    #aboutme .col.right {
+        width: 100%;
+        height: 50%;
+        padding-right: 7%;
+        margin-top: none;
+    }
+
+    #aboutme .col.right {
+        margin-top: 65px;
+        font-size: 13px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    h1#index-show-open {
+        font-size: 50px;
+    }
+    
+    span#index-show-open-below {
+        font-size: 21.5px;
+    }
+
+    .card-columns {
+        column-count: 2;
+    }
+
+    .row {
+        display: block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #skills ul {
+        padding: 20px;
+    }
+
+    #footer h2 {
+        font-size: 15px;
+    }
+
+    .h6, h6 {
+        font-size: 0.7em;
+    }
+
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        width: 50%;
+    }
+
+    #clear-float {
+        clear: both;
+    }
+
+    #skills ul {
+        margin-bottom: -25px;
+    }
+
+    #aboutme {
+        height: 300px;
+    }
+        
+    #aboutme .col.left {
+        display: none;
+    }
+    
+    #aboutme .col.right {
+        width: 100%;
+        padding-right: 7%;
+        margin-top: none;
+    }
+
+    #aboutme .col.right {
+        margin-top: 65px;
+        font-size: 14px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #repository h2,
+    #skills h2 {
+    font-size: 30px;
+}
+
+    h1#index-show-open {
+        font-size: 70px;
+    }
+    
+    span#index-show-open-below {
+        font-size: 30px;
+    }
+
+    #aboutme {
+        height: 350px;
+    }
+
+    #aboutme .col.right {
+        margin-top: 65px;
+        font-size: 14px;
+    }
+
+    #footer h2 {
+        font-size: 25px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1#index-show-open {
+        font-size: 70px;
+    }
+    
+    span#index-show-open-below {
+        font-size: 30px;
+    }
+
+    #aboutme {
+        height: 400px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
